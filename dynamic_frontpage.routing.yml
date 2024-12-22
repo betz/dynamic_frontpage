@@ -1,0 +1,7 @@
+dynamic_frontpage.domain_entity_config_form:
+  path: '/admin/config/system/domain-entity-config'
+  defaults:
+    _form: '\Drupal\dynamic_frontpage\Form\DomainEntityConfigForm'
+    _title: 'Dynamic frontpage configuration'
+  requirements:
+    _permission: 'administer site configuration'

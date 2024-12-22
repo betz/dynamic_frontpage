@@ -1,0 +1,31 @@
+{
+    "name": "drupal/dynamic_frontpage",
+    "description": "A Drupal module that dynamically adjusts the front page based on domain configuration.",
+    "type": "drupal-module",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Tom Behets",
+            "email": "tom@behets.me",
+        }
+    ],
+    "require": {
+        "drupal/core": "^9 || ^10",
+        "drupal/domain": "^2.0",
+        "drupal/path_alias": "^1.0"
+    },
+    "require-dev": {
+        "drupal/coder": "^8.3.13",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Drupal\\dynamic_frontpage\\": "src/"
+        }
+    },
+    "extra": {
+        "drupal": {
+            "package": "Custom"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+services:
+  dynamic_frontpage.event_subscriber:
+    class: Drupal\dynamic_frontpage\EventSubscriber\DynamicFrontpageSubscriber
+    arguments:
+      - '@http_kernel'
+      - '@config.factory'
+      - '@path_alias.manager'
+      - '@entity.repository'
+    tags:
+      - { name: event_subscriber }

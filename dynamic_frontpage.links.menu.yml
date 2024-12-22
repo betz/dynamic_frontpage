@@ -1,0 +1,6 @@
+dynamic_frontpage.domain_entity_config_form:
+  title: 'Dynamic frontpage'
+  description: 'Map different request domains to different frontpages.'
+  parent: system.admin_config_system
+  route_name: dynamic_frontpage.domain_entity_config_form
+  weight: 10

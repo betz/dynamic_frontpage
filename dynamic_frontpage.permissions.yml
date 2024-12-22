@@ -1,0 +1,4 @@
+administer dynamic frontpage configuration:
+  title: 'Administer dynamic frontpage configuration'
+  description: 'Allows users to administer dynamic frontpage configurations.'
+  restrict access: TRUE

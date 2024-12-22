@@ -1,0 +1,7 @@
+name: 'Dynamic Frontpage'
+type: module
+description: 'Changes the front page setting based on the domain of the request.'
+core_version_requirement: ^11
+package: Custom
+dependencies:
+  - drupal:path_alias

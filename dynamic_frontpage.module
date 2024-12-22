@@ -1,0 +1,18 @@
+<?php
+
+
+/**
+ * @file
+ * Module file for Dynamic Frontpage.
+ */
+
+use Drupal\Core\DependencyInjection\ContainerBuilder;
+use Drupal\Core\DependencyInjection\ServiceProviderBase;
+
+/**
+ * Implements hook_page_attachments_alter().
+ */
+function dynamic_frontpage_page_attachments_alter(array &$attachments)
+{
+  // This function is intentionally left blank because the logic is handled in the EventSubscriber.
+}
